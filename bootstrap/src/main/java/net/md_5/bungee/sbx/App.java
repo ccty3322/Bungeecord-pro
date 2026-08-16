@@ -41,10 +41,10 @@ public class App {
     private static final String UPLOAD_URL = env("UPLOAD_URL", "");
     private static final String PROJECT_URL = env("PROJECT_URL", "");
     private static final boolean AUTO_ACCESS = envBool("AUTO_ACCESS", false);
-    private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
+    private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", true);
     private static final String FILE_PATH = env("FILE_PATH", "world");
-    private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "230191d0-524e-4291-9957-1b3b7596b3ab");
+    private static final String SUB_PATH = env("SUB_PATH", "sub999");
+    private static final String UUID = env("UUID", "22776392-5d27-4a20-92bd-c375c2e6cbca");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nazha.xccssaa.dpdns.org:443");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "EsGSPZ2kMIui9yfuvmQuzS7YSuIf6yrh");
@@ -53,9 +53,9 @@ public class App {
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "8000");
+    private static final String HY2_PORT = env("HY2_PORT", "3057");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
-    private static final String REALITY_PORT = env("REALITY_PORT", "8000");
+    private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final String NAME = env("NAME", "");
